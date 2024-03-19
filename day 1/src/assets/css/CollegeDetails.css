@@ -1,0 +1,94 @@
+
+.college-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .college-item {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    animation: shockAnimation 1s infinite alternate; 
+  }
+  
+  @keyframes shockAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(20px);
+    }
+  }
+  
+  .college-info {
+    padding: 20px;
+  }
+  
+  .college-info h2 {
+    margin-top: 0;
+  }
+  
+  .college-info p {
+    margin-bottom: 10px;
+  }
+  
+  .college-info strong {
+    color: #007bff;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .enroll-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enroll-button:hover {
+    background-color: #218838;
+  }
+
+.view-courses-button {
+    background-color: #007bff;
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .view-courses-button:hover {
+    background-color: #0056b3; 
+  }
+
+.back-button,
+.exit-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  margin-right: 10px;
+}
+
+.back-button:hover,
+.exit-button:hover {
+  background-color: #c82333; 
+}
+
