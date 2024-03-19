@@ -1,0 +1,49 @@
+
+.admin-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #263238; 
+    color: #ffffff;
+  }
+  
+  .search-box {
+    flex: 1;
+    margin-left: 180px;
+  }
+  
+  .search-box input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #37474F; 
+    color: #ffffff;
+  }
+  
+  .admin-name {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .admin-name span {
+    margin-left: 10px;
+  }
+  
+  .notification-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-box svg {
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .notification-box svg:hover {
+    color: #ff5722; 
+  }
+  
